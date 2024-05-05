@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 /* Special classes */
 .selected{
-  border: 3px rgb(255, 217, 0) solid !important;
+  border: 3px #ffd900 solid !important;
 }
 .content{
    font-family: "El Messiri", sans-serif;
@@ -15,9 +15,9 @@
   top:50%;
   transform: translate(-50%,-50%);
   width: 90vw;
- background-color:rgb(220, 220, 220) !important;
+ background-color:#d8d6d6 !important;
 align-items: center;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+box-shadow: #32325d40 0px 50px 100px -20px, #0000004d 0px 30px 60px -30px;
 display: flex;
 flex-direction: column;
 gap:1.1rem;
@@ -26,16 +26,16 @@ padding-inline: 1.5rem;
 }
 .content .verseTitle{
     border-radius: 0.7rem;
-  background-color: #020024; 
-  color: #fff;
+  background-color: #020024 !important; 
+  color: white !important;
   padding-block: 1.1rem;
   padding-inline: 1.5rem;
 }
 .content .theRefuge{
-    color: rgb(2,0,36);
+    color: #020024 !important;
 }
 .content .verse{
-    color: rgb(2,0,36) !important;
+    color: #020024 !important;
   font-size: 16px;
   font-weight: bold;
   line-height: 2.3;
@@ -64,13 +64,13 @@ padding-block:1.1rem;
   border: 3px transparent solid ;
   cursor: pointer;
   margin-inline: 0.7rem;
-background-color: #dddddd92;
+background-color: #bcbcbcac !important;
 border-radius: 50%;
 padding: 0.7rem;
 transition: all ease 0.3s;
 }
 .move_to a:hover{
- border: 3px rgba(255, 217, 0, 0.5) solid;
+ border: 3px #ffd90080 solid;
 }
 .home_icon img, .tafseer img {
   height: 1.5rem;
