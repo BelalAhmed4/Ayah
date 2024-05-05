@@ -21,7 +21,7 @@ box-shadow: #32325d40 0px 50px 100px -20px, #0000004d 0px 30px 60px -30px;
 display: flex;
 flex-direction: column;
 gap:1.1rem;
-padding-block:1.7rem;
+padding-block:2.1rem;
 padding-inline: 1.5rem;
 }
 .content_component .verseTitle{
