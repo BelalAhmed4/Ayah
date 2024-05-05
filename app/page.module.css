@@ -15,15 +15,10 @@
   width: 90vw;
   max-height: 1200PX;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
- background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background:rgb(220, 220, 220);
   border-radius: 1rem;
 padding-inline: 1.5rem;
-padding-block:2.1rem;
+padding-block:1.7rem;
 display: flex;
 flex-direction: column;
 gap:1.1rem;
@@ -33,8 +28,7 @@ align-items: center;
   padding-block: 1.1rem;
   padding-inline: 1.5rem;
   color: #fff;
-  background-color: #020024; ;
-    color: aliceblue;
+  background-color: #020024; 
     border-radius: 0.7rem;
 }
 .content .theRefuge{
