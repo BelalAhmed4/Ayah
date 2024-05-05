@@ -15,7 +15,6 @@
   top:50%;
   transform: translate(-50%,-50%);
   width: 90vw;
- background-color:#d8d6d6 !important;
 align-items: center;
 box-shadow: #32325d40 0px 50px 100px -20px, #0000004d 0px 30px 60px -30px;
 display: flex;

@@ -7,7 +7,9 @@ import Link from "next/link";
 function Home() {
   return (
     <main>
-      <div className={styles.content}>
+      <div
+        className={styles.content}
+        style={{ backgroundColor: "#d8d6d6 !important;" }}>
         <h1 className={styles.verseTitle}>آية الكرسي</h1>
         <h3 className={styles.theRefuge}>أعوذ بالله من الشيطان الرجيم</h3>
         <p className={styles.verse}>
