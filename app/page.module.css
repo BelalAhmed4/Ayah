@@ -5,40 +5,40 @@
   border: 3px rgb(255, 217, 0) solid !important;
 }
 .content{
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
    font-family: "El Messiri", sans-serif;
-  direction: rtl;
-  width: 90vw;
-  max-height: 1200PX;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
- background:rgb(220, 220, 220);
   border-radius: 1rem;
-padding-inline: 1.5rem;
-padding-block:1.7rem;
+  direction: rtl;
+  left: 50%;
+  max-height: 1200PX;
+  position: absolute;
+  text-align: center;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width: 90vw;
+ background-color:rgb(220, 220, 220) !important;
+align-items: center;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 display: flex;
 flex-direction: column;
 gap:1.1rem;
-align-items: center;
+padding-block:1.7rem;
+padding-inline: 1.5rem;
 }
 .content .verseTitle{
+    border-radius: 0.7rem;
+  background-color: #020024; 
+  color: #fff;
   padding-block: 1.1rem;
   padding-inline: 1.5rem;
-  color: #fff;
-  background-color: #020024; 
-    border-radius: 0.7rem;
 }
 .content .theRefuge{
     color: rgb(2,0,36);
 }
 .content .verse{
-    color: rgb(2,0,36);
-  line-height: 2.3;
-  font-weight: bold;
+    color: rgb(2,0,36) !important;
   font-size: 16px;
+  font-weight: bold;
+  line-height: 2.3;
  
 } 
 @media (min-width:767px) {
@@ -50,21 +50,30 @@ padding-block:2.3rem;
     font-size:24px ;
   }
 }
+@media (max-height:767px) {
+  .content{
+    padding-inline: 1.3rem;
+padding-block:1.1rem;
+  }
+  .content .verse{
+    line-height: 1.7;
+  }
+}
 /* Page icons */
 .move_to a{
   border: 3px transparent solid ;
   cursor: pointer;
   margin-inline: 0.7rem;
-padding: 0.7rem;
 background-color: #dddddd92;
 border-radius: 50%;
+padding: 0.7rem;
 transition: all ease 0.3s;
 }
 .move_to a:hover{
  border: 3px rgba(255, 217, 0, 0.5) solid;
 }
 .home_icon img, .tafseer img {
-  width:1.5rem;
   height: 1.5rem;
   transform: translateY(30%);
+  width:1.5rem;
 }
