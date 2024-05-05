@@ -1,0 +1,76 @@
+/* Font family import */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+/* Special classes */
+.selected{
+  border: 3px rgb(255, 217, 0) solid !important;
+}
+.content{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+   font-family: "El Messiri", sans-serif;
+  direction: rtl;
+  width: 90vw;
+  max-height: 1200PX;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  border-radius: 1rem;
+padding-inline: 1.5rem;
+padding-block:2.1rem;
+display: flex;
+flex-direction: column;
+gap:1.1rem;
+align-items: center;
+}
+.content .verseTitle{
+  padding-block: 1.1rem;
+  padding-inline: 1.5rem;
+  color: #fff;
+  background-color: #020024; ;
+    color: aliceblue;
+    border-radius: 0.7rem;
+}
+.content .theRefuge{
+    color: rgb(2,0,36);
+}
+.content .verse{
+    color: rgb(2,0,36);
+  line-height: 2.3;
+  font-weight: bold;
+  font-size: 16px;
+ 
+} 
+@media (min-width:767px) {
+  .content{
+ padding-inline: 1.7rem;
+padding-block:2.3rem;
+  }
+  .content .verse{
+    font-size:24px ;
+  }
+}
+/* Page icons */
+.move_to a{
+  border: 3px transparent solid ;
+  cursor: pointer;
+  margin-inline: 0.7rem;
+padding: 0.7rem;
+background-color: #dddddd92;
+border-radius: 50%;
+transition: all ease 0.3s;
+}
+.move_to a:hover{
+ border: 3px rgba(255, 217, 0, 0.5) solid;
+}
+.home_icon img, .tafseer img {
+  width:1.5rem;
+  height: 1.5rem;
+  transform: translateY(30%);
+}
