@@ -7,7 +7,7 @@ import Link from "next/link";
 function Home() {
   return (
     <main>
-      <div className={styles.content}>
+      <div className={styles.content_component}>
         <h1 className={styles.verseTitle}>عن آية الكرسي </h1>
         <p className={styles.verse}>
           آية الكرسي أعظم آية في كتاب الله تعالى، ففي صحيح مسلم عن أبي بن كعب

@@ -4,7 +4,8 @@
 .selected{
   border: 3px #ffd900 solid !important;
 }
-.content{
+.content_component{
+   background-color: #dddcdc !important;
    font-family: "El Messiri", sans-serif;
   border-radius: 1rem;
   direction: rtl;
@@ -23,17 +24,17 @@ gap:1.1rem;
 padding-block:1.7rem;
 padding-inline: 1.5rem;
 }
-.content .verseTitle{
+.content_component .verseTitle{
     border-radius: 0.7rem;
   background-color: #020024 !important; 
   color: white !important;
   padding-block: 1.1rem;
   padding-inline: 1.5rem;
 }
-.content .theRefuge{
+.content_component .theRefuge{
     color: #020024 !important;
 }
-.content .verse{
+.content_component .verse{
     color: #020024 !important;
   font-size: 16px;
   font-weight: bold;
@@ -41,20 +42,20 @@ padding-inline: 1.5rem;
  
 } 
 @media (min-width:767px) {
-  .content{
+  .content_component{
  padding-inline: 1.7rem;
 padding-block:2.3rem;
   }
-  .content .verse{
+  .content_component .verse{
     font-size:24px ;
   }
 }
 @media (max-height:767px) {
-  .content{
+  .content_component{
     padding-inline: 1.3rem;
 padding-block:1.1rem;
   }
-  .content .verse{
+  .content_component .verse{
     line-height: 1.7;
   }
 }
