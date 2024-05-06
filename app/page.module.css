@@ -50,7 +50,7 @@ padding-block:2.3rem;
     font-size:24px ;
   }
 }
-@media (max-height:767px) {
+@media (max-height:576px) {
   .content_component{
     padding-inline: 1.3rem;
 padding-block:1.1rem;
