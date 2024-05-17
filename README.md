@@ -1,21 +1,27 @@
 # Quran Verse and Tafseer Viewer
 
-This project is a web application built with Next.js that displays a specific Quran verse (Ayat Al-Kursi) and allows users to navigate to a Tafseer (interpretation) page without reloading the browser. The application is designed for a seamless user experience with fast page transitions.
+This project is a web application built with Next.js that displays Ayat Al-Kursi, a significant verse from the Quran, and provides a Tafseer (interpretation) page. The application offers a seamless user experience with client-side navigation for fast page transitions.
 
 ## Features
 
-- **Display Quran Verse:** Shows Ayat Al-Kursi with translation and interpretation.
-- **Smooth Navigation:** Uses Next.js for client-side navigation, ensuring the browser doesn't need to reload when moving between pages.
-- **Interactive Elements:** Includes icons for navigating between the main verse page and the Tafseer page.
+- **Display Quran Verse:** Shows Ayat Al-Kursi along with its recitation and translation.
+- **Smooth Navigation:** Utilizes Next.js for client-side routing, ensuring no page reloads when navigating.
+- **Interactive Navigation:** Provides icons for easy navigation between the Quran verse and Tafseer pages.
 
 ## Technologies Used
 
-- Next.js
-- React
-- CSS Modules for styling
-- LocalStorage API for task management (if applicable)
+- **Next.js:** React framework for server-rendered or statically-exported React applications.
+- **React:** JavaScript library for building user interfaces.
+- **CSS Modules:** Scoped CSS to style components.
+- **Next.js Image Optimization:** For optimized image loading.
 
 ## Setup Instructions
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed (v12.x or later recommended).
+
+### Installation
 
 1. **Clone the Repository:**
    ```bash
@@ -38,7 +44,7 @@ This project is a web application built with Next.js that displays a specific Qu
 
 - **pages/**
   - **index.js:** Main page displaying Ayat Al-Kursi.
-  - **tafseer.js:** Tafseer page for interpreting the verse.
+  - **tafseer.js:** Page for interpreting Ayat Al-Kursi.
 
 - **public/**
   - **quran.png:** Icon for the Quran page.
@@ -49,13 +55,13 @@ This project is a web application built with Next.js that displays a specific Qu
 
 ## How to Use
 
-1. **Home Page:**
-   - Displays Ayat Al-Kursi.
-   - Provides navigation icons to move to the Tafseer page.
+### Home Page (index.js)
 
-2. **Tafseer Page:**
-   - Displays the Tafseer (interpretation) of Ayat Al-Kursi.
-   - Provides a back button to return to the main Ayat Al-Kursi page.
+Displays Ayat Al-Kursi with its recitation and translation. Users can navigate to the Tafseer page using the provided icons.
+
+### Tafseer Page (tafseer.js)
+
+Displays the Tafseer (interpretation) of Ayat Al-Kursi. Users can navigate back to the main Ayat Al-Kursi page using the provided icons.
 
 ## Example Code
 
