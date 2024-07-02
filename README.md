@@ -25,7 +25,7 @@ This project is a web application built with Next.js that displays Ayat Al-Kursi
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/quran-verse-viewer.git
+   git clone https://github.com/BelalAhmed4/quran-verse-viewer.git
    cd quran-verse-viewer
    ```
 
